@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ListView
+            android:id="@+id/language_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="선택"
+        style="?attr/buttonBarButtonStyle"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:id="@+id/choose_language"
+        android:visibility="visible"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        style="?attr/buttonBarButtonStyle"
+        android:text="닫기"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:id="@+id/cancel_language"
+        android:visibility="visible"
+        />
+    </LinearLayout>
+</LinearLayout>

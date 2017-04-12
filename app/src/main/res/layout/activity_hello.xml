@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcolor"
+    android:orientation="vertical"
+    android:padding="5dip">
+
+    <RelativeLayout
+        android:id="@+id/holder1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="text1"
+            android:textColor="#ffffffff"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/text1sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="text1sub"
+            android:textColor="#ffffffff"
+            android:textSize="60sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/holder2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img2"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="text2"
+            android:textColor="#ffffffff"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/text2sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="text2sub"
+            android:textColor="#ffffffff"
+            android:textSize="60sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/holder3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img3"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="text3"
+            android:textColor="#ffffffff"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/text3sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="text3sub"
+            android:textColor="#ffffffff"
+            android:textSize="60sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
